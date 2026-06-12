@@ -643,5 +643,32 @@
         </ul>
       </section>
     </main>
+    <script>
+      document.querySelectorAll(".question-card").forEach((card, index) => {
+        const stem = card.querySelector(".stem");
+        const solution = card.querySelector("ol");
+        const answer = card.querySelector(".answer");
+
+        if (!stem || !solution || !answer) {
+          return;
+        }
+
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "solution-toggle";
+        button.setAttribute("aria-expanded", "false");
+        button.setAttribute("aria-controls", `solution-${index + 1}`);
+        button.textContent = "显示答案";
+
+        solution.id = `solution-${index + 1}`;
+        stem.insertAdjacentElement("afterend", button);
+
+        button.addEventListener("click", () => {
+          const visible = card.classList.toggle("is-solution-visible");
+          button.textContent = visible ? "隐藏答案" : "显示答案";
+          button.setAttribute("aria-expanded", String(visible));
+        });
+      });
+    </script>
   </body>
 </html>
