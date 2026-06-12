@@ -87,6 +87,11 @@ button,
   background: #efe8d9;
 }
 
+.topbar a.active {
+  color: #fffdfa;
+  background: var(--ink);
+}
+
 .hero {
   min-height: 620px;
   display: grid;
@@ -94,6 +99,29 @@ button,
   gap: 48px;
   align-items: center;
   padding: 46px 0 72px;
+}
+
+.compact-header {
+  padding-top: 1px;
+}
+
+.subhero {
+  max-width: 850px;
+  padding: 74px 0 52px;
+}
+
+.subhero h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5.2vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+
+.subhero p {
+  max-width: 660px;
+  margin: 18px 0 24px;
+  color: var(--muted);
+  font-size: 1.06rem;
 }
 
 .hero-copy h1 {
