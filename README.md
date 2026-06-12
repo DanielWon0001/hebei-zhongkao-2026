@@ -4,11 +4,16 @@
 
 ## 使用方式
 
-直接用浏览器打开 `index.html` 即可查看页面。网站包含四个页面：
+直接用浏览器打开 `index.html` 即可查看页面。网站包含这些页面：
 
 - `index.html`：总览与资料依据
 - `hotspots.html`：高频考点预测
-- `questions.html`：20道原创训练题及图示解法
+- `questions.html`：科目入口
+- `math.html`：数学大题训练
+- `physics.html`：物理大题训练
+- `chinese.html`：语文冲刺版面
+- `english.html`：英语冲刺版面
+- `chemistry.html`：化学冲刺版面
 - `plan.html`：最后一周备考计划与考场拿分清单
 
 ## 资料说明

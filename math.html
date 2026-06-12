@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="2026河北中考数学大题预测训练，含10道原创大题和详细解题过程。" />
+    <title>数学大题预测 - 2026河北中考冲刺</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header compact-header">
+      <nav class="topbar" aria-label="页面导航">
+        <a href="index.html" class="">总览</a>
+        <a href="hotspots.html" class="">考点</a>
+        <a href="questions.html" class="">科目</a>
+        <a href="math.html" class="active">数学</a>
+        <a href="physics.html" class="">物理</a>
+        <a href="chinese.html" class="">语文</a>
+        <a href="english.html" class="">英语</a>
+        <a href="chemistry.html" class="">化学</a>
+        <a href="plan.html" class="">计划</a>
+        <button type="button" onclick="window.print()">打印</button>
+      </nav>
+      <section class="subhero">
+        <p class="kicker">Math Big Questions</p>
+        <h1>数学大题：先把步骤分写出来。</h1>
+        <p>重点训练方程应用、函数、几何证明、统计概率和压轴题入门。答案默认隐藏，做完再点击核对。</p>
+        <a class="button primary" href="physics.html">继续练物理</a>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="math" aria-labelledby="math-title">
+        <div class="section-heading">
+          <p class="kicker">Math Practice</p>
+          <h2 id="math-title">数学原创大题预测</h2>
+          <p>建议每题先独立写8到12分钟，再点击显示答案。不会做时先写设、列、画、证。</p>
+        </div>
+
+        <div class="subject-block">
+          <div class="subject-title">
+            <span>01</span>
+            <h3>数学大题10道</h3>
+          </div>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 1 / 方程应用</span>
+              <h4>打折销售与一元二次方程</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">某文具店购进一批笔记本，每本进价8元。若每本售价12元，每天可售出60本；经调查，售价每降低0.5元，每天可多售出10本。若要求每天利润为240元，且尽量让学生少花钱，售价应定为多少元？</p>
+                <ol>
+                  <li>设每本降价 x 元，则售价为 12-x 元，每本利润为 (12-x)-8=4-x 元。</li>
+                  <li>售价每降低0.5元，多售10本，所以每降低1元，多售20本；每天销量为 60+20x 本。</li>
+                  <li>根据“总利润=单件利润×销量”列方程：(4-x)(60+20x)=240。</li>
+                  <li>展开：240+80x-60x-20x^2=240，整理得 -20x^2+20x=0。</li>
+                  <li>提取公因式：-20x(x-1)=0，所以 x=0 或 x=1。</li>
+                  <li>题目要求“尽量让学生少花钱”，应选择降价更多的 x=1。</li>
+                  <li>售价为 12-1=11 元。</li>
+                </ol>
+                <p class="answer">答案：售价应定为11元。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="利润抛物线示意">
+                <line x1="28" y1="112" x2="212" y2="112" />
+                <line x1="44" y1="122" x2="44" y2="24" />
+                <path d="M42 104 Q96 30 180 102" class="accent" />
+                <line x1="94" y1="34" x2="94" y2="112" class="dash" />
+                <text x="100" y="42">最大245</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：应用题最后要回到问题本身。两个解都能满足利润时，看题目有没有“尽量便宜、尽量多卖”等条件。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 2 / 一次函数</span>
+              <h4>两种收费方案比较</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">某体育馆有两种购票方案。方案A：每次20元；方案B：先交会员费60元，以后每次12元。设去体育馆 x 次，总费用分别为 yA、yB。1. 写出两个函数关系式；2. 去多少次时两方案费用相同；3. 若计划去12次，选哪种更省钱？</p>
+                <ol>
+                  <li>方案A没有固定费用，每次20元，所以 yA=20x。</li>
+                  <li>方案B先交60元，再按每次12元收费，所以 yB=60+12x。</li>
+                  <li>费用相同时，20x=60+12x，得 8x=60，x=7.5。</li>
+                  <li>次数必须是整数。若 x≤7，方案A费用低；若 x≥8，方案B费用低。</li>
+                  <li>计划去12次：yA=20×12=240元；yB=60+12×12=204元。</li>
+                </ol>
+                <p class="answer">答案：yA=20x，yB=60+12x；7.5次时相同；12次选方案B，省36元。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="两条一次函数">
+                <line x1="30" y1="112" x2="212" y2="112" />
+                <line x1="42" y1="122" x2="42" y2="24" />
+                <path d="M42 112 L190 30" />
+                <path d="M42 86 L198 48" class="accent" />
+                <circle cx="118" cy="70" r="4" class="solid" />
+                <text x="124" y="66">交点</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：函数应用题要把“固定费用”和“每次费用”分开，交点表示两种方案一样贵。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 3 / 几何证明</span>
+              <h4>平行线与相似三角形</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">如图，在三角形ABC中，DE∥BC，D在AB上，E在AC上。已知 AD=4，DB=6，AC=15。1. 证明三角形ADE相似三角形ABC；2. 求AE；3. 若DE=6，求BC。</p>
+                <ol>
+                  <li>因为 DE∥BC，所以 ∠ADE=∠ABC，∠AED=∠ACB。</li>
+                  <li>又因为 ∠A 是公共角，所以三角形ADE与三角形ABC满足两角分别相等。</li>
+                  <li>因此 △ADE∽△ABC。</li>
+                  <li>AB=AD+DB=4+6=10。由相似可得 AD/AB=AE/AC=DE/BC。</li>
+                  <li>代入 AD/AB=4/10=2/5，所以 AE/15=2/5，得 AE=6。</li>
+                  <li>又 DE/BC=2/5，6/BC=2/5，得 BC=15。</li>
+                </ol>
+                <p class="answer">答案：△ADE∽△ABC；AE=6；BC=15。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="相似三角形示意">
+                <path d="M42 116 L200 116 L80 24 Z" />
+                <line x1="65" y1="70" x2="140" y2="70" class="accent" />
+                <text x="78" y="20">A</text>
+                <text x="34" y="128">B</text>
+                <text x="202" y="128">C</text>
+                <text x="54" y="68">D</text>
+                <text x="144" y="68">E</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：证明相似时不要只写“因为平行所以相似”，要写出两组对应角相等。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 4 / 圆综合</span>
+              <h4>切线、勾股定理与面积</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">圆O的半径为5，PA、PB分别切圆O于A、B两点，OP=13。1. 求PA；2. 判断四边形OAPB中∠OAP的大小；3. 求三角形OAP的面积。</p>
+                <ol>
+                  <li>连接OA。半径垂直于切线，所以 OA⊥PA，∠OAP=90°。</li>
+                  <li>在直角三角形OAP中，OP是斜边，OA=5，OP=13。</li>
+                  <li>由勾股定理：PA^2=OP^2-OA^2=13^2-5^2=169-25=144。</li>
+                  <li>所以 PA=12。</li>
+                  <li>三角形OAP面积 S=1/2×OA×PA=1/2×5×12=30。</li>
+                </ol>
+                <p class="answer">答案：PA=12；∠OAP=90°；面积为30。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="圆的切线大题">
+                <circle cx="82" cy="74" r="40" />
+                <line x1="82" y1="74" x2="124" y2="74" class="accent" />
+                <line x1="124" y1="74" x2="188" y2="32" />
+                <line x1="82" y1="74" x2="188" y2="32" />
+                <text x="72" y="70">O</text>
+                <text x="126" y="78">A</text>
+                <text x="192" y="34">P</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：圆切线大题的第一步通常是“连接半径”，这一步经常值1分。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 5 / 二次函数</span>
+              <h4>抛物线与坐标轴交点</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">已知抛物线 y=-x^2+4x+5。1. 求顶点坐标；2. 求它与x轴的交点坐标；3. 当 y≥0 时，求x的取值范围。</p>
+                <ol>
+                  <li>配方：y=-(x^2-4x)+5=-[(x-2)^2-4]+5=-(x-2)^2+9。</li>
+                  <li>所以顶点坐标为 (2,9)，对称轴为 x=2。</li>
+                  <li>与x轴交点令 y=0：-x^2+4x+5=0，等价于 x^2-4x-5=0。</li>
+                  <li>因式分解：(x-5)(x+1)=0，得 x=5 或 x=-1。</li>
+                  <li>交点为 (-1,0)、(5,0)。抛物线开口向下，图象在x轴上方或x轴上时，x在两个根之间。</li>
+                </ol>
+                <p class="answer">答案：顶点(2,9)；交点(-1,0)、(5,0)；y≥0时 -1≤x≤5。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="二次函数交点">
+                <line x1="28" y1="112" x2="214" y2="112" />
+                <line x1="120" y1="122" x2="120" y2="18" />
+                <path d="M48 112 Q120 18 194 112" class="accent" />
+                <circle cx="66" cy="112" r="4" class="solid" />
+                <circle cx="174" cy="112" r="4" class="solid" />
+                <text x="126" y="32">(2,9)</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：二次函数大题先配方，顶点、对称轴、最大值一次解决。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 6 / 统计综合</span>
+              <h4>样本数据与决策</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">某班抽取10名学生一分钟跳绳成绩：128，132，135，140，140，145，148，150，150，152。1. 求平均数和中位数；2. 若学校规定150个及以上为优秀，估计全班50人中优秀人数；3. 说明用样本估计总体时要注意什么。</p>
+                <ol>
+                  <li>总数为 1420，所以平均数=1420÷10=142。</li>
+                  <li>10个数据已经按从小到大排列，中位数为第5个和第6个的平均数：(140+145)/2=142.5。</li>
+                  <li>优秀的有150、150、152，共3人，样本优秀率为 3/10=30%。</li>
+                  <li>估计全班优秀人数：50×30%=15人。</li>
+                  <li>样本估计总体时，样本应具有代表性，人数不能太少，抽样要尽量随机。</li>
+                </ol>
+                <p class="answer">答案：平均数142，中位数142.5；估计优秀约15人；注意样本代表性和随机性。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="统计条形图">
+                <line x1="34" y1="114" x2="210" y2="114" />
+                <rect x="48" y="76" width="18" height="38" />
+                <rect x="78" y="64" width="18" height="50" />
+                <rect x="108" y="56" width="18" height="58" />
+                <rect x="138" y="42" width="18" height="72" class="fill" />
+                <rect x="168" y="34" width="18" height="80" class="fill" />
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：统计大题最后一问常考“样本代表性”，这句话要会写。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 7 / 解直角三角形</span>
+              <h4>测高测距应用</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">小明在距教学楼底部30 m处测得楼顶仰角为37°，小明眼睛离地1.5 m。已知 tan37°≈0.75，求教学楼高度。</p>
+                <ol>
+                  <li>先画直角三角形。水平距离30 m是邻边，楼顶到眼睛水平线的高度差设为 h。</li>
+                  <li>由正切定义，tan37°=h/30。</li>
+                  <li>h=30×0.75=22.5 m。</li>
+                  <li>教学楼总高度=高度差+眼睛高度=22.5+1.5=24 m。</li>
+                  <li>答题时要写“约为”，因为 tan37° 是近似值。</li>
+                </ol>
+                <p class="answer">答案：教学楼高度约为24 m。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="仰角测高大题">
+                <line x1="36" y1="116" x2="204" y2="116" />
+                <line x1="178" y1="116" x2="178" y2="24" class="accent" />
+                <line x1="58" y1="102" x2="178" y2="24" />
+                <line x1="58" y1="102" x2="178" y2="102" class="dash" />
+                <path d="M80 102 A22 22 0 0 0 72 88" />
+                <text x="82" y="92">37°</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：测高题别漏“眼睛高度”，这是河北中考应用题常见扣分点。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 8 / 概率综合</span>
+              <h4>列表法求两次随机事件概率</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">袋中有编号1、2、3的三个小球，除编号外完全相同。先摸出一个球，记录编号后放回，再摸出一个球。1. 用列表法列出所有结果；2. 求两次编号之和为偶数的概率。</p>
+                <ol>
+                  <li>因为摸后放回，所以第二次仍有1、2、3三种可能。</li>
+                  <li>所有等可能结果共有 3×3=9 种：(1,1)、(1,2)、(1,3)、(2,1)、(2,2)、(2,3)、(3,1)、(3,2)、(3,3)。</li>
+                  <li>和为偶数的条件是“两数同奇偶”：奇+奇或偶+偶。</li>
+                  <li>符合的有 (1,1)、(1,3)、(2,2)、(3,1)、(3,3)，共5种。</li>
+                  <li>概率 P=符合结果数/全部结果数=5/9。</li>
+                </ol>
+                <p class="answer">答案：共有9种等可能结果；编号和为偶数的概率为5/9。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="概率列表">
+                <rect x="52" y="30" width="136" height="84" rx="4" />
+                <line x1="52" y1="58" x2="188" y2="58" />
+                <line x1="97" y1="30" x2="97" y2="114" />
+                <line x1="142" y1="30" x2="142" y2="114" />
+                <text x="68" y="50">1</text><text x="114" y="50">2</text><text x="158" y="50">3</text>
+                <text x="68" y="84">奇</text><text x="114" y="84">偶</text><text x="158" y="84">奇</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：放回是9种，不放回是6种；审题的“放回”两个字很关键。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 9 / 几何综合</span>
+              <h4>矩形中的折叠问题</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">矩形ABCD中，AB=6，AD=8。将点D沿折痕AE折到点F，F落在BC上，E在CD上。求BF的长。</p>
+                <ol>
+                  <li>折叠问题的核心是对应线段相等：AD=AF，所以 AF=8。</li>
+                  <li>因为F在BC上，AB⊥BC，所以三角形ABF是直角三角形。</li>
+                  <li>在直角三角形ABF中，AF是斜边，AB=6，AF=8。</li>
+                  <li>由勾股定理：BF^2=AF^2-AB^2=8^2-6^2=64-36=28。</li>
+                  <li>所以 BF=sqrt(28)=2sqrt(7)。</li>
+                </ol>
+                <p class="answer">答案：BF=2sqrt(7)。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="矩形折叠示意">
+                <rect x="48" y="34" width="140" height="82" rx="3" />
+                <line x1="48" y1="34" x2="150" y2="116" class="accent" />
+                <path d="M48 34 L124 116" class="dash" />
+                <text x="42" y="30">A</text><text x="190" y="30">B</text><text x="190" y="130">C</text><text x="42" y="130">D</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：折叠题先写对应边相等，再找直角三角形用勾股定理。</p>
+          </article>
+
+          <article class="question-card">
+            <div class="question-head">
+              <span class="tag">数学 10 / 综合压轴入门</span>
+              <h4>一次函数与面积最值</h4>
+            </div>
+            <div class="question-body deep">
+              <div>
+                <p class="stem">直线 y=-x+6 与坐标轴交于A、B两点，点P在第一象限的线段AB上，过P作PC⊥x轴，垂足为C。设P点横坐标为x。1. 写出P点坐标；2. 用x表示三角形POC面积；3. 求面积最大值。</p>
+                <ol>
+                  <li>点P在线段AB上，且横坐标为x，所以纵坐标 y=-x+6，P(x, -x+6)。</li>
+                  <li>第一象限内，0&lt;x&lt;6。</li>
+                  <li>三角形POC的底 OC=x，高 PC=-x+6。</li>
+                  <li>面积 S=1/2×x×(-x+6)= -1/2x^2+3x。</li>
+                  <li>配方：S= -1/2(x^2-6x)= -1/2[(x-3)^2-9]= -1/2(x-3)^2+4.5。</li>
+                  <li>因为 -1/2(x-3)^2≤0，所以当 x=3 时，S最大，最大值为4.5。</li>
+                </ol>
+                <p class="answer">答案：P(x, -x+6)；S=-1/2x^2+3x；最大面积4.5。</p>
+              </div>
+              <svg viewBox="0 0 240 140" role="img" aria-label="一次函数面积最值">
+                <line x1="34" y1="112" x2="212" y2="112" />
+                <line x1="52" y1="122" x2="52" y2="24" />
+                <path d="M52 32 L184 112" class="accent" />
+                <line x1="118" y1="72" x2="118" y2="112" class="dash" />
+                <path d="M52 112 L118 112 L118 72 Z" />
+                <text x="124" y="70">P</text>
+              </svg>
+            </div>
+            <p class="tip">拿分提醒：压轴题先拿前两问。把点坐标和面积表达式写出来，已经有不少过程分。</p>
+          </article>
+        </div>
+
+      </section>
+
+      <section class="section references" aria-labelledby="ref-title">
+        <h2 id="ref-title">参考来源</h2>
+        <ul>
+          <li>
+            <a href="https://www.hee.gov.cn/" target="_blank" rel="noreferrer">河北省教育厅官网</a>
+            ：2026年初中学业水平考试通知入口。
+          </li>
+          <li>
+            <a href="https://finance.sina.com.cn/wm/2026-04-07/doc-inhtsvwy2107057.shtml" target="_blank" rel="noreferrer">河北省教育厅通知转载全文</a>
+            ：考试对象、分值、命题依据、考试形式。
+          </li>
+          <li>
+            <a href="https://www.ictr.edu.cn/download_center/ywjy.html" target="_blank" rel="noreferrer">教育部课程教材研究所：义务教育课程标准（2022年版）</a>
+            ：数学、物理课程标准下载入口。
+          </li>
+          <li>
+            <a href="https://m.sjz.bendibao.com/edu/77101.shtm" target="_blank" rel="noreferrer">河北省2026年初中学业水平考试时间</a>
+            ：考试日期与科目时间表。
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll(".question-card").forEach((card, index) => {
+        const stem = card.querySelector(".stem");
+        const solution = card.querySelector("ol");
+        const answer = card.querySelector(".answer");
+
+        if (!stem || !solution || !answer) {
+          return;
+        }
+
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "solution-toggle";
+        button.setAttribute("aria-expanded", "false");
+        button.setAttribute("aria-controls", `solution-${index + 1}`);
+        button.textContent = "显示答案";
+
+        solution.id = `solution-${index + 1}`;
+        stem.insertAdjacentElement("afterend", button);
+
+        button.addEventListener("click", () => {
+          const visible = card.classList.toggle("is-solution-visible");
+          button.textContent = visible ? "隐藏答案" : "显示答案";
+          button.setAttribute("aria-expanded", String(visible));
+        });
+      });
+    </script>
+  </body>
+</html>
