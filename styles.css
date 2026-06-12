@@ -411,6 +411,18 @@ h4 {
   font-weight: 700;
 }
 
+.reading-text {
+  display: block;
+  margin-bottom: 12px;
+  padding: 14px;
+  border: 1px solid rgba(24, 32, 29, 0.12);
+  border-radius: 8px;
+  background: #fff9ef;
+  color: var(--ink);
+  font-weight: 500;
+  line-height: 1.85;
+}
+
 .solution-toggle {
   display: inline-flex;
   align-items: center;
